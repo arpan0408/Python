@@ -6,7 +6,7 @@ if n == 1:
 else :
     print(a)
     print(b)
-    while i<n :
-        print(a+b," ")
+    while i<=n :
+        print(a+b,end="\n")
         a,b = b,a+b
         i += 1
